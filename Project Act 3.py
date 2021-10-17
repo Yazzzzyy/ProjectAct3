@@ -12,8 +12,6 @@ print ("Country: ", get('https://ipapi.co/country_name/').text)
 
 print("Top level Domain: ", get('https://ipapi.co/country_tld/').text)
 
-print("Timezone: ", get('https://ipapi.co/timezone/').text)
-
 print("Currency: ", get('https://ipapi.co/currency/').text)
 
 print("Currency Name: ", get('https://ipapi.co/currency_name/').text)
