@@ -20,21 +20,20 @@ print("Language: ", get('https://ipapi.co/languages/').text)  #Gets the Language
 
 print("Autonomous System Number: ", get('https://ipapi.co/asn/').text) #Gets the Autonomous Systen Number
 
-print("Organization: ", get('https://ipapi.co/org/').text)
+print("Organization: ", get('https://ipapi.co/org/').text) #Gets the Organization
 
-print("Postal Code: ", get('https://ipapi.co/postal/').text)
+print("Postal Code: ", get('https://ipapi.co/postal/').text) #Gets the Postal Code
 
-print("Capital: ", get('https://ipapi.co/country_capital/').text)
+print("Capital: ", get('https://ipapi.co/country_capital/').text) #Gets the Capital
 
-print("European union: ", get('https://ipapi.co/in_eu/').text)
+print("European union: ", get('https://ipapi.co/in_eu/').text) #Gets the Europian union
 
-print("Latitude / Longitude: ", get('https://ipapi.co/latlong/').text)
+print("Latitude / Longitude: ", get('https://ipapi.co/latlong/').text) #Gets the Latitude / Longitude
 
-print("Time zone: ", get('https://ipapi.co/timezone/').text)
+print("Time zone: ", get('https://ipapi.co/timezone/').text) #Gets the Time zone
+print("Continental Code: ", get('https://ipapi.co/continent_code/').text) #Gets the Continental Code
 
-print("Continental Code: ", get('https://ipapi.co/continent_code/').text)
+print("Country Area: ", get('https://ipapi.co/country_area/').text) #Gets the Country Area
 
-print("Country Area: ", get('https://ipapi.co/country_area/').text)
-
-print("Country Population: ", get('https://ipapi.co/country_population/').text)
+print("Country Population: ", get('https://ipapi.co/country_population/').text) #Gets the Country Population
 
