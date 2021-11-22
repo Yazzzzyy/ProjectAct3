@@ -8,6 +8,8 @@ print ("City: ", get('https://ipapi.co/city/').text) #Gets the City and prints i
 
 print("Region: ", get('https://ipapi.co/region/').text) #Gets the Region and prints it
 
+print("Region Code: ", get('https://ipapi.co/region_code/').text) #Gets the Region code and prints it
+
 print ("Country: ", get('https://ipapi.co/country_name/').text) #Gets the Country and prints it
 
 print("Top level Domain: ", get('https://ipapi.co/country_tld/').text) #Gets the Top level Domain and prints it
@@ -28,11 +30,17 @@ print("Capital: ", get('https://ipapi.co/country_capital/').text) #Gets the Capi
 
 print("European union: ", get('https://ipapi.co/in_eu/').text) #Gets the Europian union and prints it
 
+print("Latitude: ", get('https://ipapi.co/latitude/').text) #Gets the Latitude and prints it
+
+print("Longitude: ", get('https://ipapi.co/longitude/').text) #Gets the Longitude and prints it
+
 print("Latitude / Longitude: ", get('https://ipapi.co/latlong/').text) #Gets the Latitude / Longitude and prints it
 
 print("Time zone: ", get('https://ipapi.co/timezone/').text) #Gets the Time zone and prints it
 
 print("Continental Code: ", get('https://ipapi.co/continent_code/').text) #Gets the Continental Code and prints it
+
+print("Calling Code: ", get('https://ipapi.co/country_calling_code/').text) #Gets the Calling code and prints it
 
 print("Country Area: ", get('https://ipapi.co/country_area/').text) #Gets the Country Area and prints it
 
